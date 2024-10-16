@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+/**
+ * Nomor1
+ */
+public class Nomor1 {
+
+    public static void main(String[] args) {
+        int num;
+        String jenis;
+
+        Scanner PANDU = new Scanner(System.in);
+        System.out.println("Masukkan angka: ");
+         num = PANDU.nextInt();
+
+         if (num % 2 == 0){
+            jenis = "GENAP";
+         } else {
+            jenis = "GANJIL";
+        }
+System.out.println(num +" adalah jenis bilangan "+ jenis);
+    }
+}
